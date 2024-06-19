@@ -1,0 +1,45 @@
+.landing{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.landing::after{
+    content: '';
+    position:absolute;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    background: linear-gradient(to top ,#200016, transparent);
+    
+}
+
+.landing img{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+#sun8{
+    mix-blend-mode:screen;
+    width: 200px;
+    height: 200px;
+    display: none;
+
+}
+#moon {
+    mix-blend-mode:screen;
+    transform: translateY(80px);
+    width: 88%;
+}
+
+.novel{
+    color: white;
+    font-size: 26px;
+    transform: translateY(-130px);
+}

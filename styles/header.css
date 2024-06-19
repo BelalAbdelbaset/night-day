@@ -1,0 +1,38 @@
+header{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    z-index: 999;
+}
+
+.logo{
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.linkes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.linkes li{
+    margin-right: 50px;
+}
+
+.linkes li a{
+    padding: 16px;
+    border-radius: 20px;
+}
+
+.linkes li a:hover , .active{
+    background-color: rgb(173, 98, 175);
+    color: rgb(229, 200, 230);
+}
+

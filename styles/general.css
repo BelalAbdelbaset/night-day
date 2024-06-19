@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background:linear-gradient(#200016, #1f0016 );
+    font-family: "Roboto Slab", serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+    list-style-type: none;
+}
+ul{
+    list-style-type:none ;
+}
